@@ -127,7 +127,7 @@ header {
   background: url(img/wallpaperflare\ 2.png);
   background-repeat: no-repeat;
   background-size: 80rem 20rem ;
-  
+  overflow-x: hidden;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
   align-items: center;
@@ -141,7 +141,8 @@ header {
 }
 .home-img{
 position: relative;
-  width: 100%;
+  width: 120%;
 height: 100%;
-right: -20%;
+transform: translateX(15%);
+
 }
